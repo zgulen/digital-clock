@@ -1,0 +1,36 @@
+:root{
+    --bg-black: #1B1B1B;
+    --text-color: #008F11;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:var(--bg-black);
+    color: var(--text-color);
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.container__time--clock{
+    display: flex;
+    font-size: 3rem;
+    transform: translate(-50%,-50%);
+    flex-wrap: nowrap;
+}
+
+.container__date--days{
+    display: flex;
+    font-size: 2rem;
+    transform: translate(-50%,-50%);
+    flex-wrap: nowrap;
+}
+
